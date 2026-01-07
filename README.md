@@ -3,6 +3,8 @@ Linux cihazlarınızda (Laptop, Sunucu, Raspberry Pi) kesintisiz internet bağla
 
 Bu script; Ethernet, Dahili WiFi, USB WiFi, 4G Modemler ve Android USB Tethering cihazlarını otomatik olarak tanır, önceliklendirir ve ana internet kesildiğinde saniyeler içinde yedek hatta geçiş yapar. İnternet geri geldiğinde ise otomatik olarak ana hatta döner (Failback).
 
+<img width="659" height="212" alt="image" src="https://github.com/user-attachments/assets/1afe3f47-2a1f-4525-a12a-3989ec60840f" />
+
 🚀 Özellikler
 Evrensel Donanım Desteği: Marka/Model bağımsızdır. eth0, wlan0 gibi isimlere takılmaz; donanım türünü (Kablolu, Kablosuz, USB) otomatik analiz eder.
 
@@ -17,6 +19,9 @@ Ceza Sistemi (Penalty Logic): Bağlantısı kopan (ama kablosu takılı olan) ha
 Servis Modu: Arka planda sessizce çalışır (Systemd Service), bilgisayar yeniden başladığında otomatik devreye girer.
 
 Canlı İzleme (Monitor Mode): Hangi hattın aktif olduğunu, ping sürelerini ve geçiş anlarını terminalden canlı izlemenizi sağlar.
+
+<img width="505" height="544" alt="image" src="https://github.com/user-attachments/assets/1d4edba6-418c-428a-8431-0215f63e6435" />
+
 
 📊 Öncelik Sıralaması (Metrikler)
 Script, Linux routing tablosunda aşağıdaki Metrik değerlerini kullanır (Düşük puan = Yüksek Öncelik):
