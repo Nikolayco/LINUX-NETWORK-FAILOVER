@@ -5,6 +5,7 @@ Bu script; Ethernet, Dahili WiFi, USB WiFi, 4G Modemler ve Android USB Tethering
 
 <img width="659" height="212" alt="image" src="https://github.com/user-attachments/assets/1afe3f47-2a1f-4525-a12a-3989ec60840f" />
 
+
 🚀 Özellikler
 Evrensel Donanım Desteği: Marka/Model bağımsızdır. eth0, wlan0 gibi isimlere takılmaz; donanım türünü (Kablolu, Kablosuz, USB) otomatik analiz eder.
 
@@ -78,3 +79,7 @@ Yetki: Ağ ayarlarını değiştirmek için root (sudo) yetkisi gerekir.
 Bu script, Linux'un routing tablosunu (ip route) yönetir. VPN kullanıyorsanız (Wireguard, OpenVPN), VPN yazılımınızla çakışmaması için VPN ayarlarınızı kontrol edin.
 
 Script, bağlantı kontrolü için Google DNS (8.8.8.8) ve Cloudflare DNS (1.1.1.1) adreslerine ping atar.
+
+
+
+Geliştirici: Nikolayco Lisans: MIT (İstediğiniz gibi kullanabilir ve değiştirebilirsiniz).
