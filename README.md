@@ -57,7 +57,8 @@ chmod +x linux-universal-network-failover.sh
 
 # Çalıştırın
 sudo ./linux-universal-network-failover.sh
-it 🛠️ Kullanım
+
+🛠️ Kullanım
 Scripti çalıştırdığınızda karşınıza interaktif bir menü gelir:
 
 Install Service (Kur): Scripti sisteme bir servis olarak kurar. Bilgisayar açılınca otomatik başlar. (Tavsiye edilen).
