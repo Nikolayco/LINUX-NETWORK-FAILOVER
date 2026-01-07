@@ -44,6 +44,11 @@ Scripti indirin ve çalıştırılabilir hale getirin:
 
 Bash
 
+# 1.Yöntem:
+# Aşağıdaki satırı kopyalayarak terminale yapıştırın ve çalıştırın.
+wget -qO /tmp/linux-failover.sh https://raw.githubusercontent.com/Nikolayco/LINUX-NETWORK-FAILOVER/main/linux-universal-network-failover.sh && sudo bash /tmp/linux-failover.sh
+
+# 2.Yöntem:
 # Scripti indirin (Raw linki kullanın)
 wget https://raw.githubusercontent.com/Nikolayco/LINUX-NETWORK-FAILOVER/main/linux-universal-network-failover.sh
 
